@@ -1,6 +1,12 @@
 package unit1;
 
 public class BingoCard {
+	
+/**
+ * Creating a bingo card and explaining the rules 
+ * Date: Thursday, September 26
+ * @author Jonas Im
+ */
 
 	public void print() {
 		System.out.println("Bingo Rules:");
