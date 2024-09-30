@@ -12,27 +12,27 @@ public class BingoCard {
 		System.out.println();
 		
 		
-		System.out.format("   %-3s  %-3s  %-3s  %-3s  %-3s%n", "B", "I", "N", "G", "O");
+		System.out.format("   %-3s  %-3s  %-3s  %-3s  %-2s%n", "B", "I", "N", "G", "O");
         System.out.format("+----+----+----+----+---------+%n");
 
-        // Row 1
-        System.out.format("| %-2d | %-2d | %-2d | %-2d | %-3d    |%n", 5, 17, 33, 47, 66);
+       
+        System.out.format("| %-2d | %-2d | %-2d | %-2d | %-2d    |%n", 5, 17, 33, 47, 66);
         System.out.format("+----+----+----+----+---------+%n");
 
-        // Row 2
-        System.out.format("| %-2d | %-2d | %-2d | %-2d | %-3d    |%n", 10, 24, 36, 55, 61);
+      
+        System.out.format("| %-2d | %-2d | %-2d | %-2d | %-2d    |%n", 10, 24, 36, 55, 61);
         System.out.format("+----+----+----+----+---------+%n");
 
-        // Row 3 (Free space in the center)
-        System.out.format("| %-2d | %-2d | %-4s| %-2d | %-3d    |%n", 14, 19, "FREE", 50, 73);
+
+        System.out.format("| %-2d | %-2d | %-3s| %-2d | %-2d    |%n", 14, 19, "x", 50, 73);
         System.out.format("+----+----+----+----+---------+%n");
 
-        // Row 4
-        System.out.format("| %-2d | %-2d | %-2d | %-2d | %-3d    |%n", 3, 21, 44, 56, 70);
+
+        System.out.format("| %-2d | %-2d | %-2d | %-2d | %-2d    |%n", 3, 21, 44, 56, 70);
         System.out.format("+----+----+----+----+---------+%n");
 
-        // Row 5
-        System.out.format("| %-2d | %-2d | %-2d | %-2d | %-3d    |%n", 12, 29, 31, 60, 67);
+        
+        System.out.format("| %-2d | %-2d | %-2d | %-2d | %-2d    |%n", 12, 29, 31, 60, 67);
         System.out.format("+----+----+----+----+---------+%n");
 	}
 }

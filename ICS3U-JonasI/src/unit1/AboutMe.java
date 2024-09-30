@@ -2,7 +2,16 @@ package unit1;
 
 public class AboutMe {
 
+		/** 
+		 * Creating a timetable and talking about myself
+		 * Date: Thursday, September 26
+		 * 
+		 * @author Jonas Im
+		 * @param args
+		 */
+	
 	public static void main(String[] args) {
+		
 		// TODO Auto-generated method stub
 
 		System.out.println("Hi, my name is Jonas Im");
@@ -22,7 +31,7 @@ public class AboutMe {
                           "Day", "Period 1", "Period 2", "Period 3", "Period 4");
         System.out.format("+----------------------+----------------------+----------------------+----------------------+----------------------+\n");
 
-        // Print rows for Monday (Day 1) with left alignment and string formatting
+        
         System.out.format("| %-20s | %-20s | %-20s | %-20s | %-20s |\n", 
                           "Monday (Day 1)", 
                           "9:00 AM - 10:15 AM", 
@@ -34,7 +43,7 @@ public class AboutMe {
 
         System.out.format("+----------------------+----------------------+----------------------+----------------------+----------------------+\n");
 
-        // Print rows for Tuesday (Day 2)
+       
         System.out.format("| %-20s | %-20s | %-20s | %-20s | %-20s |\n", 
                           "Tuesday (Day 2)", 
                           "9:00 AM - 10:15 AM", 
@@ -46,7 +55,7 @@ public class AboutMe {
 
         System.out.format("+----------------------+----------------------+----------------------+----------------------+----------------------+\n");
 
-        // Print rows for Wednesday (Late Start)
+       
         System.out.format("| %-20s | %-20s | %-20s | %-20s | %-20s |\n", 
                           "Wednesday (Late)", 
                           "9:55 AM - 10:55 AM", 
@@ -58,7 +67,7 @@ public class AboutMe {
 
         System.out.format("+----------------------+----------------------+----------------------+----------------------+----------------------+\n");
 
-        // Print rows for Thursday (Day 2)
+       
         System.out.format("| %-20s | %-20s | %-20s | %-20s | %-20s |\n", 
                           "Thursday (Day 2)", 
                           "9:00 AM - 10:15 AM", 
@@ -70,7 +79,7 @@ public class AboutMe {
 
         System.out.format("+----------------------+----------------------+----------------------+----------------------+----------------------+\n");
 
-        // Print rows for Friday (Day 1)
+        
         System.out.format("| %-20s | %-20s | %-20s | %-20s | %-20s |\n", 
                           "Friday (Day 1)", 
                           "9:00 AM - 10:15 AM", 
