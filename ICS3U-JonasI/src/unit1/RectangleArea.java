@@ -30,9 +30,10 @@ public class RectangleArea {
 		width = sc.nextInt();
 		
 		System.out.print("Type in the depth of the rectangle and <Enter>");
-		width = sc.nextInt();
+		int depth = sc.nextInt();
+		
 		//calculate the area
-		int area = length * width * depth;
+		int volume = length * width * depth;
 
 		//Print the output
 		System.out.println("The volume of your rectangle is" + volume);

@@ -75,5 +75,5 @@ public class Creatingvariables {
 		System.out.println("In 10 years, I will be " + myAge + " years old.");
 
 		//Note: When I use the word create in the future, I typically mean declare and initialize
-		}
+			}
 		}
