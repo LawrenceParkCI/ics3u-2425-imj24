@@ -6,11 +6,14 @@ package unit1;
 import java.util.Scanner;
 
 /**
- * 
+ * Description: This program teaches people how to use floating point numbers
+ * Date: October 3rd, 2024
+ * @author Jonas Im
  */
 public class InputFP {
 
 	/**
+	 * This is the enrty point to the program
 	 * @param args
 	 */
 	public static void main(String[] args) {
