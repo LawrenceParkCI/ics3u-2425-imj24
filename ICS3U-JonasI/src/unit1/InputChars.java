@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class InputChars {
 
 	/**
-	 *  This is the entry pount to the prgoram
+	 *  This is the entry pount to the program
 	 * @param args
 	 */
 	public static void main(String[] args) {
