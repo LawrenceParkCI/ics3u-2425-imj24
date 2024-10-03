@@ -6,7 +6,7 @@ package unit1;
  */
 public class Mathoperstors {
 	/**
-	 *
+	 *This is the entry point to the program
 	 * @param
 	 */
 	public static void main (String [] args) {
@@ -30,6 +30,7 @@ public class Mathoperstors {
 		System.out.println("They act differenty because the quotations marks are in different places");
 
 		//Summary: What are two possible roles of the + operator?
+		System.out.println("They combine strings and add numbers");
 
 
 		/*
@@ -49,16 +50,24 @@ public class Mathoperstors {
 
 
 		//Print the following expression: (3 + 2) * 5
-		System.out.println((3+2)*5);
+		System.out.println((3 + 2) * 5);
 		//Print the following expression: 3 + 2 * 5
-
+		System.out.println(3 + 2 * 5);
 		//Was this expected? Why or why not?
-		/*
+		/*Yes this was expected because we have to use order of operations
+
          Part 2 - Calculate Using Operators
          Print out, using one println statement, what 45 degrees Celsius is in Fahrenheit
+		 */
+		System.out.println(45 * 9/5 + 32);
+
+		/*
+
 
          Print out, using a print and a println statement, what 900 Fahrenheit is in Celsius
-		 */     
+		 */ 
+		System.out.print((900 - 32) * 5/9);
+		System.out.println(" degrees Celsius");  
 
 		/*
          Part 3
@@ -67,6 +76,6 @@ public class Mathoperstors {
 		 */
 
 		//I think % means: 
-
+		System.out.println("The operator % means to find the remainder after doing division");
 	}
 }
