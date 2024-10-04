@@ -38,7 +38,7 @@ public class MakeLabels {
 
 		System.out.println();
 		System.out.println("******************************");
-		System.out.println(name + last);
+		System.out.println(name + " " + last);
 		System.out.println(subject);
 		System.out.println("******************************");
 		sc.close();
