@@ -17,8 +17,7 @@ public class PlayingWithStrings {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String digits = "123457890";
-		System.out.println(digits.indexOf("6") + digits.indexOf("a"));
+		
 		
 		
 		
