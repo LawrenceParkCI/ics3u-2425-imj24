@@ -18,8 +18,13 @@ public class NFOutput {
 		System.out.println("The cost of your item with tax is " + money.format(total));
 		System.out.println("The tax rate is " + percent.format(TAX_RATE));
 		
-		//How can you change how your value is displayed?
-		//What other formats does NumberFormat offer?
+		// How can you change how your value is displayed?
+        // You can change the format by using different formatting instances from the NumberFormat class,
+        // such as formatting for currency and percentages
+
+        // What other formats does NumberFormat offer?
+        // Besides currency and percentage, NumberFormat can also format numbers with specific decimal places
+        // and can group digits.
 
 
 		sc.close();
