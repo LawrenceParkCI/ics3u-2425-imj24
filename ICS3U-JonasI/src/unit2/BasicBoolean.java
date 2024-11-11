@@ -1,9 +1,9 @@
 package unit2;
 
 /**
-* Description: BasicBoolean worksheet.
-* Date: Nov. 4, 2024
-* @author Caden Vandeweghe
+* Description: This is a BasicBoolean worksheet.
+* Date: Nov 8, 2024
+* @author Jonas Im
 */
 
 public class BasicBoolean {
