@@ -1,7 +1,7 @@
 package unit2;
 
 /**
-* Description: This is a BasicBoolean worksheet where we learn how to use different boolean types
+* Description: This is a BasicBoolean worksheet where we learn how to use different boolean types                                         
 * Date: Nov. 8, 2024
 * @author Jonas Im
 */
